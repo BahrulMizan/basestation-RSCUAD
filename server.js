@@ -120,9 +120,9 @@ var netServer = net.createServer(function(c) {
 
     }
     if(robot1==1 &&robot2==0&&robot3==0&&robot4==0){ datarobot="11"}
-    else if(robot1==0 &&robot2==1&&robot3==1&&robot4==0){ datarobot="21"}
-    else if(robot1==0 &&robot2==0&&robot3==1&&robot4==0){ datarobot="31"}
-    else if(robot1==0 &&robot2==0&&robot3==0&&robot4==1){ datarobot="31"}
+    else if(robot2==1){ datarobot="21"}
+    else if(robot3==1){ datarobot="31"}
+    else if(robot1==0 &&robot2==0&&robot3==0&&robot4==1){ datarobot="41"}
     else{
       datarobot="null"
     }
