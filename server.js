@@ -119,10 +119,10 @@ var netServer = net.createServer(function(c) {
       }
 
     }
-    if(robot1==1 &&robot2==0&&robot3==0&&robot4==0){ datarobot="satu"}
-    else if(robot1==0 &&robot2==1&&robot3==0&&robot4==0){ datarobot="dua"}
-    else if(robot1==0 &&robot2==0&&robot3==1&&robot4==0){ datarobot="tiga"}
-    else if(robot1==0 &&robot2==0&&robot3==0&&robot4==1){ datarobot="empat"}
+    if(robot1==1 &&robot2==0&&robot3==0&&robot4==0){ datarobot="11"}
+    else if(robot1==0 &&robot2==1&&robot3==1&&robot4==0){ datarobot="21"}
+    else if(robot1==0 &&robot2==0&&robot3==1&&robot4==0){ datarobot="31"}
+    else if(robot1==0 &&robot2==0&&robot3==0&&robot4==1){ datarobot="31"}
     else{
       datarobot="null"
     }
